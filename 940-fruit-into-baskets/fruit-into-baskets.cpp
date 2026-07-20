@@ -10,13 +10,13 @@ public:
         while(r < fruits.size()){
             mpp[fruits[r]]++;
             if(mpp.size()>2){
-                if(mpp.size()>2){
+              
                     mpp[fruits[l]]--;
                     if(mpp[fruits[l]] == 0){
                         mpp.erase(fruits[l]);
                     }
                     l++;
-                }
+                
             }
 
             if(mpp.size() <= 2){
